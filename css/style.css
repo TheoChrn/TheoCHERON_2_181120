@@ -820,6 +820,13 @@ ul, li, a {
   
 }
 
+@media all and (min-width: 1200px) and (max-width: 1600px)
+{
+  .accomodationCardDescription{
+    font-size: .7em;
+  }
+}
+
 /* #endregion*/
 
 /* #region MOST POPULAR */
@@ -994,6 +1001,14 @@ ul, li, a {
   
   .mostPopularName{
     margin-left: 0;
+  }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1600px)
+{
+  .mostPopularCardDescription {
+    justify-content: space-between;
+    font-size: .7em;
   }
 }
 
@@ -1375,6 +1390,15 @@ ul, li, a {
     height: 100%;
   }
 }
+
+@media all and (min-width: 1200px) and (max-width: 1600px)
+{
+  .activityCardDescription{
+    font-size: 1em;
+    font-weight: 800;
+  }
+}
+
 /* #endregion */
 
 /* #region FOOTER */
