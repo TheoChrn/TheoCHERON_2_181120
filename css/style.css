@@ -812,10 +812,17 @@ ul, li, a {
   
 }
 
-@media all and (min-width: 1200px) and (max-width: 1600px)
+@media all and (min-width: 1200px) and (max-width: 1400px)
 {
   .accomodationCardDescription{
     font-size: .7em;
+  }
+}
+
+@media all and (min-width: 1401px) and (max-width: 1600px)
+{
+  .accomodationCardDescription{
+    font-size: .9em;
   }
 }
 
@@ -891,6 +898,7 @@ ul, li, a {
 
 .mostPopularCardDescription{
   flex-direction: column;
+  justify-content: space-around;
   width: 65%;
   padding-left: 15px;
 }
@@ -996,11 +1004,19 @@ ul, li, a {
   }
 }
 
-@media all and (min-width: 1200px) and (max-width: 1600px)
+@media all and (min-width: 1200px) and (max-width: 1400px)
 {
   .mostPopularCardDescription {
-    justify-content: space-between;
-    font-size: .7em;
+    justify-content: space-around;
+    font-size: 0.7em;
+  }
+}
+
+@media all and (min-width: 1401px) and (max-width: 1600px)
+{
+  .mostPopularCardDescription {
+    justify-content: space-around;
+    font-size: .9em;
   }
 }
 
