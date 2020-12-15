@@ -351,18 +351,6 @@ input[type="search"]:focus{
   }
 }
 
-@media all and (max-width: 767px){
-  .searchTitle{
-    margin-left: 15px;
-    font-size: 1.8em;
-  }
-
-  .searchText{
-    margin-top: 20px;
-    margin-left: 15px;
-  }
-}
-
 @media all and (min-width: 768px) and (max-width: 992px)
 {
   .searchBar{
@@ -404,6 +392,18 @@ input[type="search"]:focus{
     font-size: .8em;
     transition: none;
     transform: none;
+  }
+}
+
+@media all and (max-width: 992px){
+  .searchTitle{
+    margin-left: 15px;
+    font-size: 1.8em;
+  }
+
+  .searchText{
+    margin-top: 20px;
+    margin-left: 15px;
   }
 }
 /* #endregion */
