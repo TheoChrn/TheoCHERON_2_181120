@@ -721,7 +721,7 @@ input[type="search"]:focus{
   }
 }
 
-@media all and (min-width: 1200px) and (max-width: 1399px)
+@media all and (min-width: 1200px) and (max-width: 1400px)
 {
   .mostPopularCardDescription {
     justify-content: space-around;
@@ -729,7 +729,7 @@ input[type="search"]:focus{
   }
 }
 
-@media all and (min-width: 1400px) and (max-width: 1600px)
+@media all and (min-width: 1401px) and (max-width: 1600px)
 {
   .mostPopularCardDescription {
     justify-content: space-around;
