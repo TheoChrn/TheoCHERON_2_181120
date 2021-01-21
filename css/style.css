@@ -81,7 +81,7 @@ ul, li, a {
   }
 
   .headerNavList:hover, .headerNavSignUp:hover{
-    border-top: none;
+    border-top: 3px transparent solid;;
     border-bottom: 3px #0065FC solid;
     color: #0065FC;
   }
