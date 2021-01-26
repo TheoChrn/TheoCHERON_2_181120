@@ -21,13 +21,14 @@ ul, li, a {
 
 .headerLogo{
   position: absolute;
-  float: left;
+  top: 12%;
   text-align: center;
-  margin: 15px;
 }
 
 .headerNav{
+  position: relative;;
   margin-bottom: 20px;
+  padding: 0 50px 0 50px;
 }
 
 .headerNavUnorderedList{
@@ -56,6 +57,10 @@ ul, li, a {
 /* #region HEADER RESPONSIVE*/
 @media screen and (max-width: 992px)
 { 
+  .headerNav{
+    padding: 0;
+  }
+
   .headerNavUnorderedList{
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -76,7 +81,7 @@ ul, li, a {
   }
   
   .headerNavSignUp{
-    width: 50%;
+    width: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -86,8 +91,8 @@ ul, li, a {
     border-bottom: 3px #0065FC solid;
     color: #0065FC;
   }
-
 }
+
 /* #endregion */
 
 /* #region MAIN */
@@ -565,7 +570,7 @@ input[type="search"]:focus{
   }
   
   .accomodationCard{
-    width: 40%;
+    width: 45%;
   }
       
   .accomodationName, .accomodationPrice{
@@ -749,6 +754,7 @@ input[type="search"]:focus{
   flex-direction: column;
   max-height: 600px;
   margin: 20px;
+  width: 100%;
 }
 
 .activityCardColumn:nth-child(even){
@@ -922,6 +928,7 @@ input[type="search"]:focus{
   flex-wrap: nowrap;
   justify-content: space-between;
   margin: 0;
+  padding: 0 50px;
 }
 
 .footerContentColumn{
@@ -943,6 +950,7 @@ footer li, h3{
 {
   .footerContent{
     flex-wrap: wrap;
+
   }
   
   .footerContentColumn{
@@ -954,6 +962,12 @@ footer li, h3{
 {
   .footerContent{
     font-size: 0.8em;
+  }
+}
+
+@media all and (max-width: 1200px){
+  .footerContent{
+    padding: 0 5px;
   }
 }
 /* #endregion */
