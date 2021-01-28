@@ -82,8 +82,7 @@ ul, li, a {
   
   .headerNavSignUp{
     width: 30%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0;
   }
 
   .headerNavList:hover, .headerNavSignUp:hover{
@@ -142,18 +141,13 @@ ul, li, a {
 .searchMapIcone{
   background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 14px 15px;
   text-align: center;
 }
 
 .searchArea{
   font-weight: 700;
-  padding-top: 16px;
-  padding-bottom: 13.5px;
-  padding-left: 10px; 
+  padding: 16px 0 13.5px 10px;
   border: none;
   border-top: 1px solid #f2f2f2 ;
   border-bottom: 1px solid #f2f2f2 ;
@@ -165,14 +159,10 @@ input[type="search"]:focus{
 
 .searchButton{
   font-weight: 800;
-  text-align: center;
   border: 2px solid #0065FC;
   color: white;
   background-color: #0065FC;
-  padding-top: 12.5px;
-  padding-bottom: 11.5px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 12.5px 18px 11.5px 18px;
   margin-left: -5px;
   border-radius: 0 15px 15px 0;
   cursor: pointer;
@@ -180,8 +170,16 @@ input[type="search"]:focus{
 
 .searchButtonIcone{
   display: none;
+  font-weight: 800;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #0065FC;
+    color: white;
+    background-color: #0065FC;
+    padding: 16px 18px 13.5px 18px;
+    margin-left: -40px;
+    cursor: pointer;
 }
-
 
 .fa-map-marker-alt{
   margin-left: 5px;
@@ -198,8 +196,6 @@ input[type="search"]:focus{
  }
 
 .searchFilters{
-  align-items: center;
-  padding: 0;
   font-weight: 700;
 }
 
@@ -215,7 +211,7 @@ input[type="search"]:focus{
   padding-right: 10px;
   margin-left: 15px;
   border: 2px solid #eaeaea;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 30px;
   align-items: center;
   height: 45px;
   cursor: pointer;
@@ -238,18 +234,15 @@ input[type="search"]:focus{
 }
 
 .searchFiltersName{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
 }
 
 .searchFiltersFiltersIcone2{
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0 5px;
 }
 
 .searchFiltersFiltersIcone3{
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 0 3px;
 }
 
 .searchResult{
@@ -257,10 +250,7 @@ input[type="search"]:focus{
 }
 
 .searchResultInfoIcone{
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 12px;
-  padding-left: 12px;
+  padding: 6px 12px;
 }
 
 .searchResultIcone{
@@ -290,25 +280,10 @@ input[type="search"]:focus{
   
   .searchButton{
     display: none;
-    border: 1px solid #0065FC;
-    padding-top: 16px;
-    padding-bottom: 13.5px;
   }
 
   .searchButtonIcone{
     display: block;
-    font-weight: 800;
-    text-align: center;
-    border: 1px solid #0065FC;
-    color: white;
-    background-color: #0065FC;
-    padding-top: 16px;
-    padding-bottom: 13.5px;
-    padding-left: 18px;
-    padding-right: 18px;
-    margin-left: -40px;
-    border-radius: 15px;
-    cursor: pointer;
   }
   
    .filters{
@@ -325,8 +300,7 @@ input[type="search"]:focus{
   }
   
   .searchFiltersTitle{
-    margin-left: 20px;
-    margin-right: 0;
+    margin: 0 0 0 20px;
   }
   
   .searchFilterFilters{
@@ -343,8 +317,7 @@ input[type="search"]:focus{
 
   .searchResult{
     margin: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
   }
 }
 
@@ -357,13 +330,12 @@ input[type="search"]:focus{
 
   .searchButton{
     border: 1px solid #0065FC;
-    padding-top: 16px;
-    padding-bottom: 13.5px;
+    padding: 16px 0 13.5px 0;
     display: block;
   }
 
   .filters{
-    margin: 0 0 0 15px;
+    margin-left: 15px;
    }
   
   .searchButtonIcone{
@@ -375,8 +347,7 @@ input[type="search"]:focus{
   }
   
   .searchFiltersTitle{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0;
   }
 
   .searchFilterFilters{
@@ -391,7 +362,7 @@ input[type="search"]:focus{
   }
 
   .searchResult{
-    margin: 0 0 0 15px;
+    margin-left: 15px;
   }
 }
 
@@ -402,8 +373,7 @@ input[type="search"]:focus{
   }
 
   .searchText{
-    margin-top: 20px;
-    margin-left: 15px;
+    margin: 20px 0 0 15px;
   }
 }
 /* #endregion */
@@ -449,10 +419,7 @@ input[type="search"]:focus{
   flex-direction: column;
   justify-content: space-between;
   padding: 5px;
-  margin: 0;
-  max-width: 100%;
-  max-height: 40%;
-  height: 100%;
+  height: 40%;
 }
 
 .accomodationCard1, .accomodationCard2, .accomodationCard3{
@@ -460,19 +427,17 @@ input[type="search"]:focus{
 }
 
 .accomodationCard img{
-  max-width: 100%;
   width: 100%;
   height: 100%;
   border-radius: 30px 30px 0 0;
   object-fit: cover;
 }
 
-.accomodationName, .accomodationPrice{
+.accomodationName, .accomodationPrice, .accomodationMore{
   margin: 0;
 }
 
 .accomodationMore{
-  margin: 0;
   margin-top: 75px;
 }
 
@@ -643,20 +608,14 @@ input[type="search"]:focus{
   height: 175px;
   background-color: white;
   border-radius: 30px;
-  width: 100%;
   box-shadow: 0 5px 10px silver;
 }
 
 .mostPopularImg{
-  max-width: 35%;
-  width: 100%;
-  max-height: 100%;
-  height: 100%;
+  width: 35%;
 }
 
 .mostPopularCard img{
-  max-height: 100%;
-  max-width: 100%;
   width: 100%;
   border-radius: 30px 0 0 30px;
   object-fit: cover;
@@ -690,7 +649,7 @@ input[type="search"]:focus{
     padding: 0;
     width: 100%;
     margin: 0;
-    margin-left: 0;
+
   }
 }
 
@@ -699,8 +658,7 @@ input[type="search"]:focus{
   .mostPopular{
     padding: 0;
     width: 100%;
-    margin: 0;
-    margin-left: 0;
+    margin: 0;;
   }
     
   .mostPopularCards{
@@ -715,9 +673,7 @@ input[type="search"]:focus{
  
   .mostPopularTitle{
     margin: 20px;
-    padding-right: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding: 20px 20px 0 0;
   }
 }
 
@@ -741,7 +697,6 @@ input[type="search"]:focus{
 /* #region ACTIVITIES */
 .activitySectionTitle{
   margin-left: 40px;
-
 }
 
 .activityCards{
@@ -752,14 +707,12 @@ input[type="search"]:focus{
 
 .activityCardColumn{
   flex-direction: column;
-  max-height: 600px;
+  height: 600px;
   margin: 20px;
   width: 100%;
 }
 
 .activityCardColumn:nth-child(even){
-  flex-direction: column;
-  max-height: 600px;
   justify-content: space-between;
 }
 
@@ -770,8 +723,6 @@ input[type="search"]:focus{
 }
 
 .activityCardContent img{
-  max-width: 100%;
-  max-height: 100%;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -783,7 +734,6 @@ input[type="search"]:focus{
   height: 100%;
   margin: 20px;
   font-size: 1.4em;
-  align-items: center;
 }
 
 .activityLongCard{
@@ -793,9 +743,12 @@ input[type="search"]:focus{
   justify-content: center;
 }
 
+.activityShortCard .activityCardContent, .activityMediumCard .activityCardContent, .activityLongCard .activityCardContent{
+  height: 100%;
+}
+
 .activityLongCard .activityCardContent{
   max-height: 90%;
-  height: 100%;
 }
 
 .activityMediumCard{
@@ -807,7 +760,6 @@ input[type="search"]:focus{
 
 .activityMediumCard .activityCardContent{
   max-height: 80%;
-  height: 100%;
 }
 
 .activityShortCard{
@@ -819,7 +771,6 @@ input[type="search"]:focus{
 
 .activityShortCard .activityCardContent{
   max-height: 71.5%;
-  height: 100%;
 }
 /* #endregion */
 
@@ -837,14 +788,9 @@ input[type="search"]:focus{
     margin-right: 15px;
   }
 
-  .activityCardColumn{
-    max-height: 800px;
+  .activityCardColumn, .activityCardColumn:nth-child(even){
     margin: 0;
-  }
-
-  .activityCardColumn:nth-child(even){
-    max-height: 800px;
-    margin: 0;
+    height: auto;
   }
 
   .activityCard{
@@ -854,10 +800,6 @@ input[type="search"]:focus{
   }
 
   .activityCardContent img{
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
   }
@@ -878,7 +820,7 @@ input[type="search"]:focus{
     justify-content: center;
   }
   
-  .activityLongCard .activityCardContent{
+  .activityShortCard .activityCardContent, .activityMediumCard .activityCardContent, .activityLongCard .activityCardContent{
     max-height: 70%;
   }
   
@@ -887,17 +829,9 @@ input[type="search"]:focus{
     width: 100%;
   }
   
-  .activityMediumCard .activityCardContent{
-    max-height: 70%;
-  }
-  
   .activityShortCard{
     height: 200px;
     width: 100%;
-  }
-  
-  .activityShortCard .activityCardContent{
-    max-height: 70%;
   }
 }
  
@@ -927,7 +861,6 @@ input[type="search"]:focus{
 .footerContent{
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 0;
   padding: 0 50px;
 }
 
@@ -950,7 +883,6 @@ footer li, h3{
 {
   .footerContent{
     flex-wrap: wrap;
-
   }
   
   .footerContentColumn{
