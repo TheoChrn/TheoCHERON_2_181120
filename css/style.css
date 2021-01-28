@@ -728,16 +728,14 @@ input[type="search"]:focus{
 }
 
 .activityCardDescription{
-  max-height: 15%;
-  height: 100%;
+  height: 15%;
   margin: 20px;
+  font-weight: 800;
   font-size: 1.4em;
 }
 
 .activityLongCard{
-  flex-direction: column;
   height: 100%;
-  justify-content: center;
 }
 
 .activityShortCard .activityCardContent, .activityMediumCard .activityCardContent, .activityLongCard .activityCardContent{
@@ -745,6 +743,8 @@ input[type="search"]:focus{
 }
 
 .activityShortCard, .activityMediumCard, .activityLongCard{
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
 }
 
@@ -753,9 +753,7 @@ input[type="search"]:focus{
 }
 
 .activityMediumCard{
-  flex-direction: column;
   height: 50%;
-  justify-content: center;
 }
 
 .activityMediumCard .activityCardContent{
@@ -763,9 +761,7 @@ input[type="search"]:focus{
 }
 
 .activityShortCard{
-  flex-direction: column;
   height: 35%;
-  justify-content: center;
 }
 
 .activityShortCard .activityCardContent{
@@ -804,7 +800,6 @@ input[type="search"]:focus{
     height: 100%;
     margin: 20px;
     font-size: 1.1em;
-    font-weight: 800;
     align-items: center;
   }
 
